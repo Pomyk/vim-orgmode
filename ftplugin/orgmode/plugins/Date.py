@@ -24,7 +24,7 @@ class Date(object):
 	"""
 
 	date_regex = r"\d\d\d\d-\d\d-\d\d"
-	datetime_regex = r"[A-Z]\w\w \d\d\d\d-\d\d-\d\d \d\d:\d\d>"
+	datetime_regex = r"\w\w\w \d\d\d\d-\d\d-\d\d \d\d:\d\d>"
 
 	month_mapping = {
 		u'jan': 1, u'feb': 2, u'mar': 3, u'apr': 4, u'may': 5,
